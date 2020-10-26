@@ -16,7 +16,7 @@ collectionss = db[""] #Enter connection
 
 def save_data_to_mongo(data):
     db = client[""] #Enter Database Name
-    collections = db[""] #Enter connection
+    collection = db[""] #Enter connection
     collection.insert_one(data)
 
 def scrape():
@@ -36,7 +36,7 @@ def scrape():
     #Enter in pickup and dropoff
     pickup.send_keys('') #Enter pickup address
     time.sleep(5)
-    driver.find_element_by_xpath("//span[contains(text(), '70 Whippany Road')]").click()
+    driver.find_element_by_xpath("//span[contains(text(), '')]").click() #Enter street address of pickup location in parathesis
     time.sleep(5)
     destination.send_keys('') #Enter destination address
     time.sleep(5)
