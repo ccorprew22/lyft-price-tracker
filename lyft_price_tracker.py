@@ -34,11 +34,11 @@ def scrape():
     destination = driver.find_element_by_xpath("//input[@aria-label='Enter a drop-off location']")
 
     #Enter in pickup and dropoff
-    pickup.send_keys('') #Enter pickup address
+    pickup.send_keys('') #Enter full pickup address in lyft format
     time.sleep(5)
     driver.find_element_by_xpath("//span[contains(text(), '')]").click() #Enter street address of pickup location in parathesis
     time.sleep(5)
-    destination.send_keys('') #Enter destination address
+    destination.send_keys('') #Enter full destination address in lyft format
     time.sleep(5)
     driver.find_element_by_xpath("//span[contains(text(), '')]").click() #xpath destination name is single parenthesis
     time.sleep(10)
