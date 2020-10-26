@@ -4,7 +4,7 @@ I commute to the same few locations with lyft and sometimes with my car. There w
 
 # As of right now...
 
-The program is configured to run on your computer and store the information in a csv and a database on MongoDB. I plan to change it so that it will run in a server on heroku, upload the data to a database, then upload that data to a csv file so that the numbers can be entered into different graphs and plots to depending on what the user wants to observe.
+The program is configured to run on your computer,store the information in a csv and a database on MongoDB, and to run every 60 seconds. I plan to change it so that it will run in a server on heroku, upload the data to a database, then upload that data to a csv file so that the numbers can be entered into different graphs and plots to depending on what the user wants to observe.
 
 # ALSO
 
