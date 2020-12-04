@@ -8,6 +8,6 @@ The program is configured to run on your computer,store the information in a csv
 
 # ALSO
 
-I am not sure how legal this all is, so I am working on this to make a cool project, but do not plan to actually continously run a bot on Lyft's website when this is all completed. 
+I am not sure how legal this all is, so I am working on this to make a cool project, but I do not plan to actually continously run a bot on Lyft's website when this is all completed. 
 
 
